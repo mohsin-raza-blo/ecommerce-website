@@ -6,15 +6,14 @@ const Hero = () => {
         <section className="mx-auto my-3 w-full max-w-[1600px] px-3 sm:my-5 sm:px-5 lg:px-10">
             <div
                 className="relative overflow-hidden rounded-xl sm:rounded-2xl
-                   h-[41.vh] min-[400px]:h-[45vh] sm:h-[50vh] md:h-[57.5vh]
+                   h-[41.5vh] min-[400px]:h-[45vh] sm:h-[50vh] md:h-[57.5vh]
                     lg:h-[67.5vh] xl:h-[75vh]"
                 style={{
                     background:
                         " radial-gradient(ellipse at 75% 55%, rgba(239,68,68,0.40), transparent 60%), linear-gradient(110deg, #0f172a 0%, #1e293b 100%) ",
-                }}
-            >
-                <div className=" flex h-full items-center gap-2 px-4 pb-4 sm:gap-4 sm:px-8 sm:pb-5 md:px-12 lg:px-16 xl:px-20 ">
-                   
+                }}>
+                <div className=" flex h-full items-center gap-2  pb-4 sm:gap-4 sm:px-8 sm:pb-5 md:px-12 lg:px-16 xl:px-20 ">
+
                     <div className=" min-w-0 flex-1 ">
                         <h1
                             className="text-balance font-bold leading-[1.1]
@@ -41,10 +40,7 @@ const Hero = () => {
                             Shop Now →
                         </button>
                     </div>
-
-
-                    <div
-                        className="flex h-full w-[46%] items-center justify-center md:w-[52%]">
+                    <div className="flex h-full w-[46%] items-center justify-center md:w-[52%]">
                         <img
                             src={heroProducts}
                             alt="Red shopping bags and a shopping cart"
