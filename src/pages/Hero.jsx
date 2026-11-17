@@ -6,8 +6,8 @@ const Hero = () => {
         <section className="mx-auto my-3 w-full max-w-[1600px] px-3 sm:my-5 sm:px-5 lg:px-10">
             <div
                 className="relative overflow-hidden rounded-xl sm:rounded-2xl
-                   h-[260px] min-[400px]:h-[280px] sm:h-[320px] md:h-[380px]
-                    lg:h-[440px] xl:h-[480px]]"
+                   h-[41.vh] min-[400px]:h-[45vh] sm:h-[50vh] md:h-[57.5vh]
+                    lg:h-[67.5vh] xl:h-[75vh]"
                 style={{
                     background:
                         " radial-gradient(ellipse at 75% 55%, rgba(239,68,68,0.40), transparent 60%), linear-gradient(110deg, #0f172a 0%, #1e293b 100%) ",
