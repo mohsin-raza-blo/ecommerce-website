@@ -1,13 +1,15 @@
 import React from "react";
 import heroProducts from "../assets/hero.jpg";
 
+
+
 const Hero = () => {
     return (
         <section className="mx-auto my-3 w-full max-w-[1600px] px-3 sm:my-5 sm:px-5 lg:px-10">
             <div
                 className="relative overflow-hidden rounded-xl sm:rounded-2xl
-                   h-[41.5vh] min-[400px]:h-[45vh] sm:h-[50vh] md:h-[57.5vh]
-                    lg:h-[67.5vh] xl:h-[75vh]"
+                   h-[166px] min-[400px]:h-[180px] sm:h-[200px] md:h-[230px]
+                    lg:h-[270px] xl:h-[300px]"
                 style={{
                     background:
                         " radial-gradient(ellipse at 75% 55%, rgba(239,68,68,0.40), transparent 60%), linear-gradient(110deg, #0f172a 0%, #1e293b 100%) ",
