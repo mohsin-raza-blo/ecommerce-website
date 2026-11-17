@@ -1,0 +1,19 @@
+@import "tailwindcss";
+body {
+    
+    font-family: system-ui, sans-serif;
+    background: #f8fafb;
+    color: #111827;
+}
+.hero-right-container {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    @media (max-width: 768px){
+        .hero-right-container >img{
+            background-color: rgb(148, 255, 127);
+            display: flex;
+        }
+    }
+}
